@@ -48,8 +48,8 @@ export default async function TierSelectPage({
     return (
       <>
         <PageBanner
-          title={copy.tierUnified}
-          breadcrumb={[{ label: "시술 후 통합 관리 가이드" }]}
+          title="시술 후 통합 관리 가이드"
+          breadcrumb={[{ label: copy.tierUnified }]}
         />
 
         <section className="py-20 lg:py-28 bg-white">
